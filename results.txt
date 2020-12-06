@@ -1,0 +1,27 @@
+Classification:
+
+	Random Forest:
+		acc: 0.83 +- 0.19 (95%)
+		f1: 0.86 +- 0.15 (95%)
+
+	Naive Bayes:
+		acc: 0.89 +- 0.08 (95%)
+		f1: 0.91 +- 0.06 (95%)
+		
+	LSTM:
+		acc: 0.88 +- 0.003 (95%)
+		f1: 0.90 +- 0.003 (95%)
+
+Regression:
+	
+	Random Forest
+		r2: 0.44 +- 0.32
+		mae: 12.86 +- 11.83
+
+	Elastic Net
+		r2: 0.45 +- 0.30
+		mae: 12.74 +- 11.19
+	LSTM
+		r2: 0.42 +- 0.28
+		mae: 12.61 +- 0.41
+
